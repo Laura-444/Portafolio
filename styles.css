@@ -280,19 +280,18 @@ h1 {
     display: block;
 }
 
-.form-content{
-    margin: 0 auto; 
+.section-form {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 7px;
 }
 
 .form-content input {
-    border: 1px solid #e5e5e5;
     border-radius: 5px;
     height: 20px;
-    width: 500px;
-    margin-bottom: 1px;
     padding-top: 15px;
     padding-bottom: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .form-content .submit-button {
@@ -300,42 +299,29 @@ h1 {
     color: #ffff;
     border-radius: 30px;
     height: 50px;
+    width: 100px;
     border: 2px solid black;
     margin-top: 20px;
     font-size: 15px;
 }
 
-.contact {
-    display: flex;
-    justify-content: flex-start;
-    background-color: #ffff;
-    border-radius: 8px;
-    margin-bottom: 1px;
-    padding: 15px;
-    margin-top: 50px;
+.field input,
+.field textarea {
+    max-width: 50%;
+    border: 1px solid black;
+    min-width: 100%;
 }
 
-footer .contacto {
-    padding: 60px 0;
-
+.social-media {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 7px;
+    margin-top: 1px;
 }
 
-footer .contacto .titulo {
-    font-size: 34px;
-    line-height: 34px;
-    margin-bottom: 40px;
-    font-weight: 300;
-    text-align: center;
+.social-media a {
+ text-decoration: none;
+ color: black;
+ display: inline-block;
 }
 
-footer .contacto .formulario .boton {
-    margin: auto;
-    background-color: #3895ea;
-    color: #fff;
-    border: none;
-    border-radius: 3px;
-    padding: 15px 40px;
-    cursor: pointer;
-
-
-}
